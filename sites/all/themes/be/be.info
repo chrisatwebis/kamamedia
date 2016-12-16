@@ -1,0 +1,40 @@
+name = Be
+description = Responsive Agency Portfolio Drupal Theme
+version = 1.0.0
+core = 7.x
+
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/tera-slider.css
+stylesheets[all][] = css/tera-lightbox.css
+stylesheets[all][] = css/style.css
+
+;necessary regions
+regions[main_menu] = Main menu
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+;hero regions
+regions[tera_slider] = Tera Slider
+regions[page_intro] = Jumbotron
+
+;standard regions
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[fullwidth_panel] = Fullwidth Panel
+
+;footer regions
+regions[footer_content] = Footer content
+regions[col_footer_1] = Footer column 1
+regions[col_footer_2] = Footer column 2
+regions[col_footer_3] = Footer column 3
+regions[footer_social_icons] = Footer social icons
+
+settings[shortcut_module_link] = 0
+settings[to_top] = 1
+settings[copyright] = &copy; 2015 Be. All Rights Reserved. Created by Cocoon
+settings[logo_height] = 13
+settings[maintenance_heading] = Coming soon
+settings[maintenance_subheading] = Current phase: Development
+settings[maintenance_progress] = 70
